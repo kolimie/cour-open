@@ -50,9 +50,11 @@
 }
 
 .grid {
-  width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
 .form1 {
@@ -68,19 +70,19 @@
 }
 
 .form1 input {
-  height: 50px;
+  height: 40px;
   width: 1fr;
   border-radius: 5px;
 }
 
 .form2 input {
-  height: 50px;
+  height: 40px;
   width: 1fr;
   border-radius: 5px;
 }
 
 .form3 textarea {
-  height: 250px;
+  height: 200px;
   width: 2fr;
   border-radius: 5px;
 }
