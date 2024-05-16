@@ -44,6 +44,13 @@
 
 .section-contact form {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -57,7 +64,7 @@
 }
 
 .form3 {
-  grid-area: 2 / 1 / 2 / 2;
+  grid-area: 2 / 1 / 2 / 3;
 }
 
 .form1 input {
@@ -74,7 +81,7 @@
 
 .form3 textarea {
   height: 250px;
-  width: auto;
+  width: 2fr;
   border-radius: 5px;
 }
 
@@ -82,7 +89,6 @@
   background: linear-gradient(#8e86b5, #acaeed);
   border-radius: 50px;
   padding: 20px 60px;
-  display: block;
-  display: flex;
-  justify-content: center;
+  display: inline-block; 
+  margin: auto;
 }
