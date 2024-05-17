@@ -41,3 +41,68 @@
   color: #a5b4fc;
   text-align: center;
 }
+
+.section-contact form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.form1 {
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+.form2 {
+  grid-area: 1 / 2 / 1 / 2;
+}
+
+.form3 {
+  grid-area: 2 / 1 / 2 / 3;
+}
+
+.form1 input {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form2 input {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form3 textarea {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form4 {
+  background: linear-gradient(#8e86b5, #acaeed);
+  border-radius: 50px;
+  padding: 20px 75px;
+  display: inline-block; 
+  margin: auto;
+}
+
+.form4:hover {
+  background: linear-gradient(#696484, #8788ba);
+}
+
+.form4 input {
+  color: white;
+  background: none;
+  border-width: 0px;
+  font-weight: 550;
+}
