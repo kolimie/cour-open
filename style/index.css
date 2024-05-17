@@ -96,6 +96,10 @@
   margin: auto;
 }
 
+.form4:hover {
+  background: linear-gradient(#696484, #8788ba);
+}
+
 .form4 input {
   color: white;
   background: none;
