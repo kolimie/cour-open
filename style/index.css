@@ -93,30 +93,20 @@ input[type='submit'] {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    text-align: center;
   }
 
   .accueil-photos {
     padding: 20px;
   }
-  
-  .accueil-introduction h1, p {
-    text-align: center;
-  }
 
-  .accueil-photos div {
-    display: flex;
-    flex-direction: column;
-  }
-
+  .accueil-photos div,
   .form-nom-email {
     display: flex;
     flex-direction: column;
   }
 
-  .accueil-introduction img {
-    width: 100%;
-  }
-
+  .accueil-introduction img,
   .accueil-photos img {
     width: 100%;
   }
