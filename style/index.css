@@ -20,7 +20,7 @@
 .accueil-introduction {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  max-width: 1000px;
   align-items: flex-start;
   margin: auto;
 }
@@ -46,7 +46,7 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  max-width: 1000px;
   margin: auto;
   color: white;
 }
@@ -79,4 +79,45 @@ input[type='submit'] {
   width: 200px;
   margin: auto;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .accueil-introduction {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .accueil-introduction div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .accueil-photos {
+    padding: 20px;
+  }
+  
+  .accueil-introduction h1, p {
+    text-align: center;
+  }
+
+  .accueil-photos div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-nom-email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accueil-introduction img {
+    width: 100%;
+  }
+
+  .accueil-photos img {
+    width: 100%;
+  }
 }
